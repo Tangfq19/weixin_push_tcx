@@ -3,7 +3,7 @@ name: weixin
 on: 
   workflow_dispatch:
   schedule:
-  - cron: '0 0 * * *'
+  - cron: '10 0 * * *'
   
 jobs:
   build:
@@ -13,10 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Set up Python 3.9
+    - name: Set up Python 3.11
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9.1
+        python-version: 3.11.0
     - name: install pip packages
     
       run: |
