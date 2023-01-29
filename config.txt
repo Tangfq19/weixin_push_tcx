@@ -10,12 +10,12 @@
 "user": ["oXwC56Knzi0XZwE6xLfcgl2l_GAY","oXwC56PXjjZVeXwdvOQ2Exx4slvo"],
 # 信息配置
 # 所在省份
-"province": "河南",
+"province": "安徽",
 # 所在城市
-"city": "郑州",
-"province2": "安徽",
+"city": "合肥",
+"province2": "河南",
  #所在城市
-"city2": "合肥",
+"city2": "郑州",
 # 生日1，如果生日为农历，在最前面加上r即可，如r1999-01-01
 "birthday1": "1995-6-21",
 # 生日2
